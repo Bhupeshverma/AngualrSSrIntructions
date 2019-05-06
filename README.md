@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
 
+This project is a boilerplate for angular SSR (Server side rendering)
+Where you can use the benefit of SSR.
+for more detail follow the link `https://angular.io/guide/universal`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -13,6 +17,9 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## SSR
+Run `npm run build:ssr && npm run serve:ssr` to build and server the project in ssr mode.
 
 ## Running unit tests
 
