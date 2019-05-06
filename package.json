@@ -11,7 +11,8 @@
     "build:client-and-server-bundles": "ng build --prod && ng run project-name:server:production",
     "webpack:server": "webpack --config webpack.server.config.js --progress --colors",
     "build:ssr": "npm run build:client-and-server-bundles && npm run webpack:server",
-    "serve:ssr": "node dist/server"
+    "serve:ssr": "node dist/server",
+    "start:heroku": "node dist/server"
   },
   "private": true,
   "dependencies": {
